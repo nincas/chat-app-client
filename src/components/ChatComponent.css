@@ -1,0 +1,104 @@
+.chat_container {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.user_message {
+    color: white;
+    background-color: darkcyan;
+    width: 50%;
+    margin: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 10px;
+}
+
+textarea {
+    max-width: 500px;
+    min-width: 99.49%;
+    max-height: 100px;
+    min-height: 100px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px;
+    float: right;
+}
+
+.actionPane {
+    margin: auto;
+    width: 500px;
+}
+
+.mainContainer {
+    width: 450px;
+    margin: auto;
+}
+
+.actionPane>button {
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+    border: 0px;
+    float: right !important;
+    margin-top: 5px;
+}
+
+.actionPane>button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+div>p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span {
+    color: lightgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.chat_container>i {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+div>i {
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .chat_container {
+        border-radius: 0%;
+        width: 100vh;
+    }
+
+    .actionPane {
+        margin: auto;
+        width: 100vh;
+    }
+
+    textarea {
+        min-width: 100vh;
+        min-height: 20vh;
+    }
+
+
+    .user_message {
+        color: white;
+        background-color: darkcyan;
+        font-size: 18px;
+    }
+}
